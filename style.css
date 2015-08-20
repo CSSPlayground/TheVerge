@@ -1,0 +1,43 @@
+html {
+    line-height: 1.4;
+}
+.links .via strong, .links .source strong {
+    background-color: #fa4b2a;
+}
+li {
+  margin-top:10px;
+}
+.links {
+    font-size: 0;
+    list-style-type: none;
+  margin:80px 250px;
+    padding: 0 !important;
+}
+.links strong {
+    background-color: #000;
+}
+*::-moz-placeholder {
+    color: #666;
+}
+.links strong, .links a {
+    color: #fff;
+    display: inline-block;
+    font-family: ff-din-web-condensed,Helvetica,sans-serif;
+    font-size: 0.9rem !important;
+    font-weight: 600;
+    line-height: 1 !important;
+    margin: 0 1px 1px 0;
+    padding: 5px 7px 2px;
+    text-transform: uppercase;
+}
+a:active, a:hover {
+  outline:0 none;
+}
+.links a {
+ background-color:#aaa;
+  text-decoration:none;
+}
+.links a:hover {
+ background-color:#fa4b2a;
+  color:#fff;
+}
